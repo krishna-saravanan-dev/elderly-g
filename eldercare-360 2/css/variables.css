@@ -1,0 +1,62 @@
+/* ==========================================================================
+   ElderCare 360 (v3) — Inspired by Ronas IT Healthcare Web Patient Portal
+   Exact Brand Palette: #B6A188, #FFCF68, #E4E0E0, #201F1E | Font: Cabin
+   ========================================================================== */
+
+:root {
+  --taupe: #B6A188;
+  --taupe-soft: #D9CFC2;
+  --taupe-dark: #9A846B;
+
+  --amber: #FFCF68;
+  --amber-soft: #F9E5B4;
+  --amber-glow: rgba(255, 207, 104, 0.35);
+
+  --alabaster: #E4E0E0;
+  --surface-shell: #F5F2F0;
+  --surface-card: #EFECEB;
+  --surface-white: #FFFFFF;
+
+  --charcoal: #201F1E;
+  --text-primary: #201F1E;
+  --text-secondary: #6E6A66;
+  --text-muted: #9B9691;
+
+  --danger: #D94E3B;
+  --danger-soft: #FBE9E6;
+  --success: #2E7D5B;
+  --success-soft: #E3F2EB;
+
+  --border-subtle: rgba(32, 31, 30, 0.07);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-pill: 999px;
+
+  --shadow-shell: 0 20px 60px rgba(32, 31, 30, 0.12);
+  --shadow-card: 0 4px 16px rgba(32, 31, 30, 0.04);
+  --shadow-pill: 0 2px 8px rgba(32, 31, 30, 0.06);
+
+  --font-main: 'Cabin', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--alabaster);
+  color: var(--text-primary);
+  min-height: 100vh;
+  padding: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+}
